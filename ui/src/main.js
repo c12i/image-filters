@@ -1,5 +1,3 @@
-import "./style.css";
-
 import init, { greet } from "image-filters";
 
 init()
