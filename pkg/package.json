@@ -1,0 +1,17 @@
+{
+  "name": "image-filters",
+  "collaborators": [
+    "Collins Muriuki <hello@collinsmuriuki.xyz>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "image_filters_bg.wasm",
+    "image_filters.js",
+    "image_filters.d.ts"
+  ],
+  "module": "image_filters.js",
+  "types": "image_filters.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
