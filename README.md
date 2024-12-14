@@ -5,7 +5,6 @@
 1. Build the WASM module:
 
 ```bash
-cd image-filters
 wasm-pack build --target web --release
 ```
 
