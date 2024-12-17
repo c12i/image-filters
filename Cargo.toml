@@ -11,9 +11,13 @@ crate-type = ["cdylib", "rlib"]
 default = ["console_error_panic_hook"]
 
 [dependencies]
+<<<<<<< HEAD
 wasm-bindgen = "0.2.84" # pin to  wasm-bindgen = "=0.2.78" if using photon-rs
+=======
+wasm-bindgen = "=0.2.78"
+>>>>>>> solution
 # image = "0.25.5"
-# photon-rs = "0.3.2"
+photon-rs = "0.3.2"
 
 # The `console_error_panic_hook` crate provides better debugging of panics by
 # logging them with `console.error`. This is great for development, but requires
